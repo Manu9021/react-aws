@@ -35,7 +35,7 @@ jobs:
           ssh -i ~/.ssh/id_rsa ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} << 'EOF'
             cd /home/manou/react-aws
             git pull origin main
-            docker compose up
+            docker compose up --build
           EOF
 
       - name: Cleanup SSH key
