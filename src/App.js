@@ -11,11 +11,11 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="manou.html"
+          href="../manou.html"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React manou
+          Learn React Manou
         </a>
       </header>
     </div>
